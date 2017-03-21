@@ -1,0 +1,195 @@
+@font-face 
+{
+	  font-family: 'FuturaBT-Medium';
+	  src: url('../fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+		   url('../fonts/FuturaBT-Medium.woff') format('woff'), 
+	       url('../fonts/FuturaBT-Medium.ttf')  format('truetype'), 
+	       url('../fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaBT-Bold';
+  src: url('../fonts/FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+	  url('../fonts/FuturaBT-Bold.woff') format('woff'),
+	  url('../fonts/FuturaBT-Bold.ttf')  format('truetype'),
+	  url('../fonts/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	
+}
+.predictor_cc
+{
+	width:1200px;
+	height:655px;
+	background-image:url("../img/bg.png");
+	background-size:100% 100%;
+	padding-top:20px;
+}
+.pg_head h3
+{
+	font-family: 'FuturaBT-Bold';
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 45px;
+	letter-spacing: 3px;
+	
+}
+.left_team,.right_scrore
+{
+	width:60%;
+	float:left;
+}
+.left_score,.right_scrore
+{
+	width:40%;
+	float:left;
+}
+.pg_content_cc
+{
+	width: 80%;
+	margin:0 auto;
+}
+.right_team h3,.left_team h3
+{
+	font-family: 'FuturaBT-Bold';
+	text-transform: uppercase;
+	color:#fff;
+}
+.left_score h3,.right_scrore h3
+{
+	color: #fff;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'FuturaBT-Medium';
+	font-weight: bold;
+	width: 300px;
+}
+.right_name,.left_name
+{
+	font-size: 35px;
+	font-family: 'FuturaBT-Bold';
+	text-transform: uppercase;
+	color:#fff;
+}
+.right_name
+{
+	float:right;
+}
+.left_score
+{
+	right: 33px;
+	position: relative;
+}
+.right_team h3,.right_team img
+{
+	float:right;
+}
+.left_score,.right_scrore
+{
+	padding-top:14px;
+}
+.pg_teamversus
+{
+	padding-top:65%;
+	font-size: 35px;
+	color: #fff;
+	font-size: 37px;
+	font-weight: bold;
+}
+.result_logo
+{
+	width:60%;
+	float:left;
+	right: 22px;
+position: relative;
+}
+#pt_teamb_progressbar
+{
+	border:1px solid #00E8FF;
+	padding: 4px;
+	
+}
+#pt_teamb_progressbar > div:nth-child(1) {
+    background:#00E8FF;
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+	height: 40px;
+	
+}
+#pt_team_progressbar
+{
+	border:1px solid #EB268F;
+	padding: 4px;
+}
+#pt_team_progressbar > div:nth-child(1) {
+    background: #EB268F;
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+	height: 40px;
+	
+}
+.result_predictor table tr td {
+    color: #fff;
+    font-weight: bold;
+	font-family: 'FuturaBT-Medium';
+	text-align:center;
+	font-size:20px;
+}
+.result_predictor table tr td:nth-child(3)
+{
+	left:10px;
+	position:relative;
+}
+.result_predictor table tr td:nth-child(2) {
+    width: 90%;
+}
+.result_predictor table
+{
+	border-collapse: separate;
+	border-spacing:1em;
+}
+
+.result_predictor h3
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	font-family: 'FuturaBT-Medium';
+	font-size: 32px;
+}
+.result_commentry h3
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	font-weight:bold;
+	font-family: 'FuturaBT-Medium';
+	font-size: 32px;
+}
+.column_cc
+{
+	border-right: 1px dashed #fff;
+	border-top: 1px dashed #fff;
+	padding-bottom: 61px;
+}
+.column_cc_r
+{
+	border-top: 1px dashed #fff;
+}
+.main_rr
+{
+	padding-bottom:22px;
+}
+.result_commentry
+{
+	right:45px;
+	position:relative;
+}

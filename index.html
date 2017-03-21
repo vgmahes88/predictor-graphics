@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/predictor_graphics.css"/>
+    <script>
+		  $( function() {
+			$( "#pt_team_progressbar" ).progressbar({
+			  value:30
+			});
+		  } );
+  </script>
+   <script>
+		  $( function() {
+			$( "#pt_teamb_progressbar" ).progressbar({
+			  value:90
+			});
+		  } );
+  </script>
+</head>
+<body>  
+<div class="container predictor_cc">
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
+      <div class="pg_left">
+		<img src="img/bbllogo.png" width="" height="" alt="left-logo"/>
+	  </div>
+    </div>
+    <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
+      <div class="pg_head" align="center">
+		<h3>Predictor</h3>
+	  </div>
+    </div>
+	<div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
+      <div class="pg_right">
+		<img src="img/c21logo.png" width="" height="" alt="left-logo"/>
+	  </div>
+    </div>
+  </div>
+  <div class="container pg_content_cc">
+	<div class="row main_rr">
+		<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+		    <h3 class="left_name">Brishbane Heat</h3>
+			<div class="pg_teama">
+			  <div class="left_team">
+				
+				<img src="img/b heat.png" width="" height=""/>
+			  </div>
+			  <div class="left_score">
+				<h3>125/3</h3>
+				<h3>19.1 Overs</h3>
+			  </div>
+			  
+			</div>
+		</div>
+		<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+			<div class="pg_teamversus" align="center">
+				<font>V</font>
+			</div>
+		</div>
+		<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+		    <h3 class="right_name">Sydney Sixers</h3>
+			<div class="pg_teamb">
+			 <div class="right_scrore">
+				<h3>--</h3>
+				
+			 </div>
+			 <div class="right_team">
+				
+				<img src="img/b heat.png" width="" height=""/>
+			 </div>
+			
+			</div>
+		</div>
+  </div>
+  <div class="row">
+	<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 column_cc">
+	
+				<div class="result_img">
+					<div class="result_logo">
+						<img src="img/bheatlogo.png" />
+					</div>
+					<div class="result_commentry">
+					  <h3>Score Predictor 180</h3>
+					</div>
+				</div>
+			
+			
+		</div>
+	
+	<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 column_cc_r">
+		<div class="result_predictor">
+		<h3>Result Predictor</h3>
+			<table>
+		<tr>
+			<td> <img src="img/b heat small.png" alt="The Pulpit Rock" /></td>
+			<td> 
+			<div id="pt_teamb_progressbar"></div>
+			</td>
+			<td>80%</td>
+		</tr>
+		<tr>
+			<td> <img src="img/s sixers small.png" alt="The Pulpit Rock" /></td>
+			<td> 
+			<div id="pt_team_progressbar"></div>
+			</td>
+			<td>20%</td>
+		</tr>
+	</table>
+		</div>
+	</div>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
